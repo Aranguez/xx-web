@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1090 743">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00c2ff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="パス_23" data-name="パス 23" class="cls-1" d="M0,0H1090V743H0Z" transform="translate(830 333)"/>
+    </clipPath>
+  </defs>
+  <g id="マスクグループ_2" data-name="マスクグループ 2" class="cls-2" transform="translate(-830 -333)">
+    <g id="グループ化_108" data-name="グループ化 108">
+      <g id="グループ化_78" data-name="グループ化 78" transform="translate(72)">
+        <g id="グループ化_49" data-name="グループ化 49" transform="translate(1339.784 646.315)">
+          <g id="長方形_65" data-name="長方形 65" class="cls-3" transform="translate(0 0)">
+            <rect class="cls-4" width="368.242" height="538.685" rx="11"/>
+            <rect class="cls-5" x="1" y="1" width="366.242" height="536.685" rx="10"/>
+          </g>
+          <g id="長方形_66" data-name="長方形 66" class="cls-3" transform="translate(27.355 109.42)">
+            <rect class="cls-4" width="313.532" height="389.284" rx="5"/>
+            <rect class="cls-5" x="1" y="1" width="311.532" height="387.284" rx="4"/>
+          </g>
+        </g>
+        <g id="グループ化_48" data-name="グループ化 48" transform="translate(995.763 412.461)">
+          <g id="長方形_65-2" data-name="長方形 65" class="cls-3" transform="translate(0 0)">
+            <rect class="cls-4" width="528.103" height="772.539" rx="11"/>
+            <rect class="cls-5" x="1" y="1" width="526.103" height="770.539" rx="10"/>
+          </g>
+          <g id="長方形_66-2" data-name="長方形 66" class="cls-3" transform="translate(39.23 156.922)">
+            <rect class="cls-4" width="449.642" height="558.28" rx="5"/>
+            <rect class="cls-5" x="1" y="1" width="447.642" height="556.28" rx="4"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

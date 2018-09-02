@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 228">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00c2ff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #ff3636;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="パス_22" data-name="パス 22" class="cls-1" d="M0,0H375V228H0Z" transform="translate(0 352)"/>
+    </clipPath>
+  </defs>
+  <g id="マスクグループ_1" data-name="マスクグループ 1" class="cls-2" transform="translate(0 -352)">
+    <g id="グループ化_107" data-name="グループ化 107" transform="translate(0 -87)">
+      <rect id="長方形_67" data-name="長方形 67" class="cls-3" width="115" height="96" transform="translate(0 439)"/>
+      <rect id="長方形_68" data-name="長方形 68" class="cls-3" width="115" height="96" transform="translate(260 535)"/>
+      <g id="グループ化_39" data-name="グループ化 39">
+        <g id="長方形_65" data-name="長方形 65" class="cls-4" transform="translate(60 458)">
+          <rect class="cls-5" width="175" height="256" rx="11"/>
+          <rect class="cls-6" x="1" y="1" width="173" height="254" rx="10"/>
+        </g>
+        <g id="長方形_66" data-name="長方形 66" class="cls-4" transform="translate(73 510)">
+          <rect class="cls-5" width="149" height="185" rx="5"/>
+          <rect class="cls-6" x="1" y="1" width="147" height="183" rx="4"/>
+        </g>
+      </g>
+      <g id="グループ化_40" data-name="グループ化 40" transform="translate(114 77.493)">
+        <g id="長方形_65-2" data-name="長方形 65" class="cls-4" transform="translate(60 458)">
+          <rect class="cls-5" width="122.026" height="178.507" rx="11"/>
+          <rect class="cls-6" x="1" y="1" width="120.026" height="176.507" rx="10"/>
+        </g>
+        <g id="長方形_66-2" data-name="長方形 66" class="cls-4" transform="translate(69.065 494.259)">
+          <rect class="cls-5" width="103.897" height="128.999" rx="5"/>
+          <rect class="cls-6" x="1" y="1" width="101.897" height="126.999" rx="4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

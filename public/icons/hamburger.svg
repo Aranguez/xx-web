@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="シンボル_6_1" data-name="シンボル 6 – 1" transform="translate(-30.5 -29.5)">
+    <line id="線_1" data-name="線 1" class="cls-1" x2="29" transform="translate(30.5 30.5)"/>
+    <line id="線_2" data-name="線 2" class="cls-1" x2="16" transform="translate(30.5 38.5)"/>
+    <line id="線_3" data-name="線 3" class="cls-1" x2="29" transform="translate(30.5 46.5)"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.071 39.141">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-6 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="グループ化_70" data-name="グループ化 70" transform="translate(-3509.784 -1060.527)">
+    <g id="長方形_93" data-name="長方形 93" class="cls-1" transform="translate(3509.784 1079.48)">
+      <rect class="cls-4" width="38.071" height="20.188"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="37.071" height="19.188"/>
+    </g>
+    <g id="パス_7" data-name="パス 7" class="cls-2" transform="translate(3528.869 1060.527) rotate(45)">
+      <path class="cls-4" d="M5.632,5.293,26.8,0l-4.39,22.075L0,26.8Z"/>
+      <path class="cls-6" d="M 25.5146369934082 1.352951049804688 L 6.449062347412109 6.119613647460938 L 1.377353668212891 25.49069786071777 L 21.56142616271973 21.23271751403809 L 25.5146369934082 1.352951049804688 M 26.80326461791992 -5.7220458984375e-06 L 22.41352462768555 22.07496452331543 L -5.7220458984375e-06 26.80326461791992 L 5.631734848022461 5.293174743652344 L 26.80326461791992 -5.7220458984375e-06 Z"/>
+    </g>
+    <path id="パス_8" data-name="パス 8" class="cls-3" d="M0,0H25.4L12.821,8.314,1.049.632Z" transform="translate(3516.298 1083.44)"/>
+  </g>
+</svg>
