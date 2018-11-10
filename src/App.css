@@ -229,6 +229,7 @@ section.main {
   font-size: 4em; }
   @media screen and (max-width: 400px) {
     .home-title {
+      padding-top: 70px;
       font-size: 2em; } }
 
 /* GALLERY */
@@ -288,7 +289,18 @@ footer {
   color: #FFF; }
   @media screen and (max-width: 400px) {
     .mobile-footer {
-      display: block; } }
+      padding: 30px;
+      display: block; }
+    .mobile-footer h1{
+      font-size: 1.5em;
+      display: block;
+      text-align: center;
+      margin: 25px 0;}
+    .mobile-footer .social a{
+      display: inline-block;
+      margin-right: 20px;
+    } 
+  }
 
 /* ANIMATIONS */
 @keyframes BigToIn {

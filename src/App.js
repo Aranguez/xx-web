@@ -4,7 +4,6 @@ import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom'
 import Route from 'react-router-dom/Route'
 
-import Nav from './components/Nav';
 import Main from './components/Main';
 import Gallery from './components/Gallery';
 import About from './components/About';
@@ -17,7 +16,6 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Nav/>
           <Route path="/" exact strict component={Main}/>
           <Route path="/gallery" exact component={Gallery}/>
           <Route path="/about" exact component={About}/>

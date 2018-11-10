@@ -19,26 +19,25 @@ class Nav extends Component {
         } else {
             document.querySelector('body').classList.add('menu-open')
         }
-        
     }
 
     render() {
-        console.log(this.state.showMenu)
+        
         return (
             <Fragment>
                 <nav className="desk-nav container xs-hide">
                     <img src="/img/logo.svg" alt="logo" width="80"/>
                     <div className="links">
-                        <NavLink to="/">Home</NavLink>
-                        <NavLink to="/gallery">Gallery</NavLink>
-                        <NavLink to="/about">About</NavLink>
-                        <NavLink to="/contact">Contact</NavLink>
+                        <NavLink to='/' activeStyle={{'color': '#FF3636'}}>Home</NavLink>
+                        <NavLink to='/gallery' activeStyle={{'color': '#FF3636'}}>Gallery</NavLink>
+                        <NavLink to="/about" activeStyle={{'color': '#FF3636'}}>About</NavLink>
+                        <NavLink to="/contact" activeStyle={{'color': '#FF3636'}}>Contact</NavLink>
                     </div>
                 </nav>
 
                 <nav className="mobile-nav xs-show">
                     <img src="/icons/hamburger.svg" alt="ico" width="30" onClick={this.showMenu}/>
-                    <h4>Home</h4>
+                    <h4>{this.props.link}</h4>
                     <img src="/img/logo.svg" alt="logo" width="60"/>
                 </nav>
 
@@ -46,25 +45,37 @@ class Nav extends Component {
                     <div onClick={this.showMenu}>close</div>
                     <div className="iconos">
                         <div className="item">
-                            <NavLink to="/" onClick={this.showMenu}>
+                            <NavLink to={{
+                                pathname: '/',
+                                state: { link: 'Home' }
+                                }} onClick={this.showMenu}>
                                 <img src="/icons/home.svg" alt="ico" width="38"/>
                                 <h5>Home</h5>
                             </NavLink>
                         </div>
                         <div className="item">
-                            <NavLink to="/gallery" onClick={this.showMenu}>
+                            <NavLink to={{
+                                pathname: '/gallery',
+                                state: { link: 'Gallery' }
+                                }} onClick={this.showMenu}>
                                 <img src="/icons/gallery.svg" alt="ico" width="35"/>
                                 <h5>Gallery</h5>
                             </NavLink>
                         </div>
                         <div className="item">
-                            <NavLink to="/about" onClick={this.showMenu}>
+                            <NavLink to={{
+                                pathname: '/about',
+                                state: { link: 'About' }
+                                }} onClick={this.showMenu}>
                                 <img src="/icons/about.svg" alt="ico" width="40"/>
                                 <h5>About</h5>
                             </NavLink>
                         </div>
                         <div className="item">
-                            <NavLink to="/contact" onClick={this.showMenu}>
+                            <NavLink to={{
+                                pathname: '/contact',
+                                state: { link: 'Contact' }
+                                }} onClick={this.showMenu}>
                                 <img src="/icons/contact.svg" alt="ico" width="40"/>
                                 <h5>Contact</h5>
                             </NavLink>

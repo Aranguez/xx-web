@@ -32,13 +32,13 @@ const Footer = () => {
                 <div>
                     <h1>Gimme your feedback</h1>
                 </div>
-                <div>
-                    <div>
+                <div className="social">
+                    <a href="https://www.instagram.com/leandro_aranguez/" target="_blank" rel="noopener noreferrer">
                         <img src="/icons/instagram.svg" width="32" alt="instagram"/>
-                    </div>
-                    <div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/leandro-aranguez-53345615b/" target="_blank" rel="noopener noreferrer">
                         <img src="/icons/linkedin.svg" width="35" alt="linkedin"/>
-                    </div>
+                    </a>
                 </div>
             </footer>
         </Fragment>
