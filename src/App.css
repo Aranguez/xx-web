@@ -141,8 +141,6 @@ h1, h2, h3, h4, h5, h6, label {
     color: #FFF;
     margin-left: 80px;
     text-decoration: none; }
-    .links a.active {
-      color: #FF3636; }
     .links a:hover {
       color: #FF3636; }
 
@@ -160,18 +158,17 @@ h1, h2, h3, h4, h5, h6, label {
 
 .menu {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
-  height: 100vh;
-  width: 100%;
-  overflow-y: hidden; }
+  height: 100%;
+  width: 100%; }
   .menu .iconos {
     padding: 50px;
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 100%; }
     .menu .iconos .item {
@@ -184,11 +181,12 @@ h1, h2, h3, h4, h5, h6, label {
       .menu .iconos .item h5 {
         margin-top: 5px; }
   .menu .background-menu {
-    background-image: url("/img/menu-background.svg");
+    background-image: url(/img/menu-background.svg);
     opacity: .9;
     height: 100vh;
+    overflow: scroll;
     width: 166.667%;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     z-index: -1; }
@@ -229,7 +227,7 @@ section.main {
   font-size: 4em; }
   @media screen and (max-width: 400px) {
     .home-title {
-      padding-top: 70px;
+      padding-top: 55px;
       font-size: 2em; } }
 
 /* GALLERY */
@@ -289,18 +287,7 @@ footer {
   color: #FFF; }
   @media screen and (max-width: 400px) {
     .mobile-footer {
-      padding: 30px;
-      display: block; }
-    .mobile-footer h1{
-      font-size: 1.5em;
-      display: block;
-      text-align: center;
-      margin: 25px 0;}
-    .mobile-footer .social a{
-      display: inline-block;
-      margin-right: 20px;
-    } 
-  }
+      display: block; } }
 
 /* ANIMATIONS */
 @keyframes BigToIn {
@@ -350,6 +337,38 @@ footer {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%; }
+
+/* ABOUT */
+.foto{
+  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  background-color: #666;
+}
+
+.description{
+  padding-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.description h2{
+  font-size: 1.8em; 
+  margin-bottom: 40px;
+}
+.description h2 span{
+  position: relative;
+}
+.description h2 span::after{
+  content: '';
+  width: 100%;
+  height: 7px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  background-color: #FF3636;
+
+}
+
 
 /* CONTACT */
 .contact {

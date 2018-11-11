@@ -28,10 +28,22 @@ class Nav extends Component {
                 <nav className="desk-nav container xs-hide">
                     <img src="/img/logo.svg" alt="logo" width="80"/>
                     <div className="links">
-                        <NavLink to='/' activeStyle={{'color': '#FF3636'}}>Home</NavLink>
-                        <NavLink to='/gallery' activeStyle={{'color': '#FF3636'}}>Gallery</NavLink>
-                        <NavLink to="/about" activeStyle={{'color': '#FF3636'}}>About</NavLink>
-                        <NavLink to="/contact" activeStyle={{'color': '#FF3636'}}>Contact</NavLink>
+                        <NavLink to={{
+                                pathname: '/home',
+                                state: { link: 'Home' }
+                                }} activeStyle={{'color': '#FF3636'}}>Home</NavLink>
+                        <NavLink to={{
+                                pathname: '/gallery',
+                                state: { link: 'Gallery' }
+                                }} activeStyle={{'color': '#FF3636'}}>Gallery</NavLink>
+                        <NavLink to={{
+                                pathname: '/about',
+                                state: { link: 'About' }
+                                }} activeStyle={{'color': '#FF3636'}}>About</NavLink>
+                        <NavLink to={{
+                                pathname: '/contact',
+                                state: { link: 'Contact' }
+                                }} activeStyle={{'color': '#FF3636'}}>Contact</NavLink>
                     </div>
                 </nav>
 
@@ -46,7 +58,7 @@ class Nav extends Component {
                     <div className="iconos">
                         <div className="item">
                             <NavLink to={{
-                                pathname: '/',
+                                pathname: '/home',
                                 state: { link: 'Home' }
                                 }} onClick={this.showMenu}>
                                 <img src="/icons/home.svg" alt="ico" width="38"/>
