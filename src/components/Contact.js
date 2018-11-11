@@ -8,7 +8,7 @@ const Contact = props => {
         <Fragment>
             <Nav link={props.location.state.link}/>
             <section className="contact container BigToIn">
-                <h1 className="main-title mt30">Let's talk !</h1>
+                <h1 className="main-title">Let's talk !</h1>
                 <h1 className="mobile-title">Let's talk !</h1>
                 <form className="mt30">
                     <div className="row">
